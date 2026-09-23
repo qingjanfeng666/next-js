@@ -9,7 +9,7 @@ import PageHeading from "./PageHeading.jsx";
 import AnimatedCardGrid from "./AnimatedCardGrid.jsx";
 import InputCard from "./InputCard.jsx";
 import ResultCard from "./ResultCard.jsx";
-import HistoryModal from "../../../现代前端/zero-to-tech-demos/zero-to-tech-6-6/components/HistoryModal.jsx";
+import HistoryModal from "./HistoryModal.jsx";
 import { textLab } from "../data/site.js";
 
 const API = process.env.NEXT_PUBLIC_API_BASE_URL;
