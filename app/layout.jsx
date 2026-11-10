@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <Script
-          src="https://www.googletagmanager.com/gtm.js?id=GTM-KDG8GTX8"
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-MJBZWKBD"
           strategy="afterInteractive"
         />
         <Script id="google-tag" strategy="afterInteractive">
