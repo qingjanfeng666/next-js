@@ -14,6 +14,7 @@ import "../css/nav.css";
 import "../css/cards.css";
 import "../css/lab.css";
 import "../css/responsive.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "zero to tech",
@@ -29,6 +30,18 @@ export default function RootLayout({ children }) {
             <main className="page-content">{children}</main>
           </div>
         </div>
+
+        <Script
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-KDG8GTX8"
+          strategy="afterInteractive"
+        />
+        <Script id="google-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          `}
+        </Script>
       </body>
     </html>
   );
